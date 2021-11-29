@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS Layout</title>
+	<style>
+		.texto{color: red;}
+		.texto2{background-color: blue;}
+		.texto3{background: rgb(230, 230, 230);
+            width: 70%;
+            height: 180px;
+            overflow-y: auto;
+            overflow-x: hidden;}
+			.fotogaleria{
+				background: rgb(62, 128, 228);
+                 padding:5px}
+
+
+			.foto {width: 300px;
+                border: 2px ridge rgb(65, 238, 55)  ;
+                margin: 6px;}
+				.posicion{
+					position: relative;right: 30%;
+					position:absolute;left: 3%;
+					
+				}
+				.imagen-piña{
+					float:left;
+				}
+	</style>
+</head>
+<body>
+	<h1>CSS Layout David                               26/11/2021</h1>
+	<h2>Span</h2>
+	<h3>Sirve para agrupar un texto y modificarlo por ejemplo la palabra <span class="texto">texto</span> tiene un span</h3>
+	<h2>Div</h2>
+	<h3>Sirve para agrupar parrafos enteros y modificarlos</h3>
+	<div class="texto2">
+	<p1>Las llamadas Tecnologías de la Información y la Comunicación<br>
+		 son los recursos y herramientas que se utilizan para el proceso,<br>
+		  administración y distribución de la información a través de elementos<br>
+		   tecnológicos, como: ordenadores, teléfonos, televisores, etc.</p1>
+		</div>
+		<div class="texto3">
+		<h2>Overflow</h2>
+		<h3>Sirve para establecer barras de desplazamiento como en el siguiente texto</h3>
+	
+		<p2>Las llamadas Tecnologías de la Información y la Comunicación<br>
+			son los recursos y herramientas que se utilizan para el proceso,<br>
+			 administración y distribución de la información a través de elementos<br>
+			  tecnológicos, como: ordenadores, teléfonos, televisores, etc</p2>
+			</div>
+			<p4>
+			<div class="fotogaleria">
+			<h2>Box model: content, padding, border, margin</h2>
+			<h3>Sirve para agregar borde a las imagenes</h3>
+			<img class="foto" src="Imagenes/GettyImages-1033902830.jpg" width="300px">
+			<img class="foto" src="Imagenes/León-2.jpg" width="300px">
+			<img class="foto" src="Imagenes/trafico-de-especies-salvajes.jpg " width="300px">
+		</p4>
+		</div>
+<h2>Positioning: relative, absolute, fixed y z-index</h2>
+<h3>Sirve para dar posicion </h3>
+
+
+<p3><div class="posicion">
+
+	Las llamadas Tecnologías de la Información y la Comunicación<br>
+	son los recursos y herramientas que se utilizan para el proceso,<br>
+	 administración y distribución de la información a través de elementos<br>
+	  tecnológicos, como: ordenadores, teléfonos, televisores, etc<br>
+
+</div>
+</p3>
+
+
+<h2>Float, clear</h2>
+
+
+<h3>
+	float propiedad que se utiliza para posicionar y dar formato al contenido 
+	Por ejemplo una imagen esta a a la derecha de este texto
+
+
+	<h3><img class="imagen-piña" src="Imagenes/pineapple (1).jpg" width="100px"></h3>
+</h3>
+</body>
+</html>
